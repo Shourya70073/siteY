@@ -293,14 +293,15 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+    <form action ="https://formspree.io/f/mayagkny"
+                    method="POST" id="my-form">
                         <div class="dbl-field fields">
                           <div class="field name">
                             <input type="text" name="name" placeholder="Enter your name" required>
                            
                           </div>
                           <div class="field email">
-                            <input type="text" name="email" placeholder="Enter your email" required>
+                            <input type="email" name="_replyto" placeholder="Enter your email" required>
                             
                           </div>
                         </div>
@@ -324,7 +325,7 @@
                           <button type="submit">Send Message</button>
                           <br>
                           <br>
-                          <span></span>
+                          <span id="status"></span>
                         </div>
                       </form>
                 </div>
