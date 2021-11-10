@@ -8,6 +8,10 @@
   
     font-size: 16px;
 }
+#picc{
+border-style:none;
+	border-radius:172px;
+}
 .dropbtn {
     background-color: black;
     color: white;
